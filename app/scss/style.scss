@@ -5,9 +5,152 @@
 
 
 
+.header {
+
+    padding: 20px 0;
+    background-color: antiquewhite;
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 0;
+    }
+
+    &__link {
+        color: #322929;
+        font-size: 26px;
+    }
+
+    &__subscribe {
+        color: #050404;
+        font-size: 20px;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: #322929;
+        color: #fff;
+
+        transition: all .5s;
+
+        
+        &:hover{
+            background-color: #534646;
+        }
+    }
+}
 
 
 
+.top {
+
+    padding: 50px 0;
+
+    &__text {
+        text-align: center;
+        font-size: 30px;
+        font-weight: 700;
+        padding-bottom: 100px;
+    }
+
+    &__box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        margin-bottom: 20px;
+    }
+
+    &__input {
+        width: 500px;
+        background-color: transparent;
+        border: none;
+        padding: 20px;
+        border: 3px solid antiquewhite;
+        border-radius: 20px;
+        font-size: 20px;
+        outline: none;
+        box-shadow: 4px 5px 21px 0px rgba(0, 0, 0, 0.55);
+        -webkit-box-shadow: 4px 5px 21px 0px rgba(0, 0, 0, 0.55);
+        -moz-box-shadow: 4px 5px 21px 0px rgba(0, 0, 0, 0.55);
+    }
+
+    &__btn {
+        height: 70px;
+        border: 3px solid antiquewhite;
+        border-radius: 20px;
+        background-color: #322929;
+        text-transform: uppercase;
+        padding: 20px;
+        color: #fff;
+        font-weight: 700;
+        cursor: pointer;
+        transition: all .5s;
+
+
+        &:hover{
+            background-color: #534646;
+        }
+    }
+
+    &__descr {
+        text-align: center;
+    }
+
+    &__link-text {
+        color: #870678;
+        font-size: 17px;
+    }
+}
+
+.popular {
+    background-color: antiquewhite;
+    padding: 50px 0;
+    &__title {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 28px;
+        margin-bottom: 50px;
+    }
+
+    &__list {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    &__item {
+        width: 600px;
+        padding: 20px;
+        border: 2px solid #fff;
+        border-radius: 20px;
+    }
+
+    &__box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    &__item-title {
+        font-size: 20px;
+    }
+
+    &__item-link {
+        font-size: 20px;
+        color: #870678;
+        font-weight: 700;
+
+    }
+}
+
+
+
+.footer__container{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 
 
 
